@@ -1,0 +1,4 @@
+itemprop:name
+itemprop:price
+itemprop:priceCurrency
+itemprop:url
