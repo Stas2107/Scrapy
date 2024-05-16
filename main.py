@@ -30,7 +30,7 @@ def scrape_data(html_content, tags):
 # Настройка драйвера и переход на нужную страницу
 browser = webdriver.Chrome()
 browser.get('https://www.divan.ru/tolyatti/category/svet')
-time.sleep(2)  # Даем время для полной загрузки страницы
+time.sleep(10)  # Даем время для полной загрузки страницы
 
 # Получение HTML-кода страницы
 html_content = browser.page_source
